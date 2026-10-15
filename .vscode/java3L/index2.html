@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ushtrimi 2</title>
+</head>
+
+<body>
+    <h1>Regjistrimi i produkteve</h1>
+    <p>Shtoni nje produkt te ri</p>
+
+    <form>
+        <fieldset>
+            <legend>Informacioni produktit</legend>
+            <p>Emri i produktit: <input type="text" placeholder="Laptop"></p>
+
+            <p>Kategoria
+                <select>
+                    <option>Zgjidhni kategorine</option>
+                    <option>Laptops</option>
+                    <option>Accessories</option>
+                </select>
+            </p>
+
+            <p>Marka: <input type="text"></p>
+            <p>Qmimi $: <input type="number"></p>
+            <p>Sasia: <input type="number" value="0"></p>
+            <p>
+                Statusi:
+                <input type="radio" name="status"> Aktiv
+                <input type="radio" name="status"> Jo aktiv
+            </p>
+            <p>Pershkrimi: <br><textarea rows="3">Pershkrimi produktit</textarea></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Specifikimet</legend>
+            <p>Ngjyra:
+                <select><option>Zgjidhni ngjyren</option></select>
+            </p>
+            <p>Madhsia:
+                <select><option>Zgjidhni madhsine</option></select>
+            </p>
+            <p>Pesha(kg) <input type="number" value="0"></p>
+            <p>Vlersimi <input type="range" min="1" max="5"></p>
+             <p>
+                Produkt i ri:
+                <input type="checkbox"> Po
+            </p>
+        </fieldset>
+    </form>
+
+<br>
+
+<h2>Lista e produktit</h2>
+<table  border="1">
+<tr>
+    <th>#</th>
+    <th>Emri</th>
+    <th>Kategoria</th>
+    <th>qmimi</th>
+    <th>Sasia</th>
+    <th>statusi</th>
+    <th>Veprime</th>
+</tr>
+<tr>
+    <td>1</td>
+    <td>Laptop</td>
+    <td>laptops</td>
+    <td>800</td>
+    <td>5</td>
+    <td>aktiv</td>
+    <td><a href="#">shiko</a></td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>Smart watch</td>
+    <td>Watch</td>
+    <td>100</td>
+    <td>12</td>
+    <td>aktiv</td>
+    <td><a href="#">shiko</a></td>
+</tr>
+    
+</body>
+</html>
